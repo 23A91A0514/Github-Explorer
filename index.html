@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>GitHub Followers Explorer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+        <!-- PWA -->
+<link rel="manifest" href="manifest.json">
+
+<meta name="theme-color" content="#2563eb">
+
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>GitHub Followers Explorer</h1>
+
+        <div class="search-box">
+
+            <input
+                type="text"
+                id="username"
+                placeholder="Enter GitHub Username">
+
+            <button id="searchBtn">
+                Search
+            </button>
+
+        </div>
+
+        <div id="loading" class="loading">
+            Loading...
+        </div>
+
+        <div id="profile"></div>
+
+        <div class="buttons">
+
+    <button id="followersBtn">
+        Followers
+    </button>
+
+    <button id="followingBtn">
+        Following
+    </button>
+
+    <button id="reposBtn">
+        View Repositories
+    </button>
+
+</div>
+
+              <div id="usersContainer"></div>
+
+        <footer class="footer">
+            <p>
+                With ❤️‍🔥 Love Mahesh <br>
+                For more follow me on GitHub<br>
+                <a href="https://github.com/23A91A0514" target="_blank">
+                    M@he$h 🎓🕸️
+                </a>
+            </p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
